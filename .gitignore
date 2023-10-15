@@ -26,7 +26,10 @@ yarn-error.log*
 
 # local env files
 .env*.local
+<<<<<<< HEAD
 .env
+=======
+>>>>>>> 6c31ebd (Initial commit from Create Next App)
 
 # vercel
 .vercel
