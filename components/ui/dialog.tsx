@@ -12,6 +12,11 @@ const DialogTrigger = DialogPrimitive.Trigger
 
 const DialogPortal = DialogPrimitive.Portal
 
+<<<<<<< HEAD
+=======
+const DialogClose = DialogPrimitive.Close
+
+>>>>>>> 884519a (Added a form For the Store Modal)
 const DialogOverlay = React.forwardRef<
   React.ElementRef<typeof DialogPrimitive.Overlay>,
   React.ComponentPropsWithoutRef<typeof DialogPrimitive.Overlay>
@@ -110,6 +115,10 @@ export {
   Dialog,
   DialogPortal,
   DialogOverlay,
+<<<<<<< HEAD
+=======
+  DialogClose,
+>>>>>>> 884519a (Added a form For the Store Modal)
   DialogTrigger,
   DialogContent,
   DialogHeader,
