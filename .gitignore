@@ -26,14 +26,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
-<<<<<<< HEAD
-<<<<<<< HEAD
 .env
-=======
->>>>>>> 6c31ebd (Initial commit from Create Next App)
-=======
-.env
->>>>>>> 884519a (Added a form For the Store Modal)
 
 # vercel
 .vercel
