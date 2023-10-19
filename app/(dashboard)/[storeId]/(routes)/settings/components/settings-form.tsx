@@ -1,6 +1,6 @@
 "use client"
 import * as z from "zod"
-import { store } from "@prisma/client"
+import { Store } from "@prisma/client"
 import { Trash } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -20,7 +20,7 @@ import { useOrigin } from "@/hooks/use-orgin";
 
 
 interface SettingsFormProps {
-    initialData: store;
+    initialData: Store;
 }
 
 const formSchema = z.object({

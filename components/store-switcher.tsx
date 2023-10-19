@@ -2,7 +2,7 @@
 
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { useStoreModal } from "@/hooks/use-store-modal";
-import { store  } from "@prisma/client";
+import { Store  } from "@prisma/client";
 import { useParams, useRouter } from "next/navigation";
 import { useState } from "react";
 import { Button } from "./ui/button";
@@ -16,7 +16,7 @@ type popoverTriggerProps = React.ComponentPropsWithoutRef<typeof PopoverTrigger>
 // Create an interface for StoreSwitcherProps, extending the props for PopoverTrigger inherting all the props that popoverTriggerProps Accepts
 interface StoreSwitcherProps extends popoverTriggerProps {
 // Specify the items prop, expecting an array of store items
-    items: store[];
+    items: Store[];
 };
 
 
